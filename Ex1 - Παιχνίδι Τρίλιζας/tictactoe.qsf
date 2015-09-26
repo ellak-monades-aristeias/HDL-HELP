@@ -1,0 +1,98 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Edition
+# Date created = 15:56:33  September 25, 2015
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		tictactoe_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C20F484C7
+set_global_assignment -name TOP_LEVEL_ENTITY tictactoe
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "12.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:56:33  SEPTEMBER 25, 2015"
+set_global_assignment -name LAST_QUARTUS_VERSION "12.0 SP2"
+set_global_assignment -name VHDL_FILE vga_controller.vhd
+set_global_assignment -name VHDL_FILE tictactoe.vhd
+set_global_assignment -name VHDL_FILE romX.vhd
+set_global_assignment -name VHDL_FILE romO.vhd
+set_global_assignment -name VHDL_FILE MoveGen.vhd
+set_global_assignment -name VHDL_FILE keyboard_controller.vhd
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+set_location_assignment PIN_R22 -to rst
+
+set_location_assignment PIN_L1 -to clk
+
+set_location_assignment PIN_H15 -to kClk
+set_location_assignment PIN_J14 -to kData
+
+set_location_assignment PIN_D9 -to red[0]
+set_location_assignment PIN_C9 -to red[1]
+set_location_assignment PIN_A7 -to red[2]
+set_location_assignment PIN_B7 -to red[3]
+set_location_assignment PIN_B8 -to green[0]
+set_location_assignment PIN_C10 -to green[1]
+set_location_assignment PIN_B9 -to green[2]
+set_location_assignment PIN_A8 -to green[3]
+set_location_assignment PIN_A9 -to blue[0]
+set_location_assignment PIN_D11 -to blue[1]
+set_location_assignment PIN_A10 -to blue[2]
+set_location_assignment PIN_B10 -to blue[3]
+set_location_assignment PIN_A11 -to hsync
+set_location_assignment PIN_B11 -to vsync
+
+set_location_assignment PIN_J2 -to scoreX[0]
+set_location_assignment PIN_J1 -to scoreX[1]
+set_location_assignment PIN_H2 -to scoreX[2]
+set_location_assignment PIN_H1 -to scoreX[3]
+set_location_assignment PIN_F2 -to scoreX[4]
+set_location_assignment PIN_F1 -to scoreX[5]
+set_location_assignment PIN_E2 -to scoreX[6]
+set_location_assignment PIN_E1 -to scoreO[0]
+set_location_assignment PIN_H6 -to scoreO[1]
+set_location_assignment PIN_H5 -to scoreO[2]
+set_location_assignment PIN_H4 -to scoreO[3]
+set_location_assignment PIN_G3 -to scoreO[4]
+set_location_assignment PIN_D2 -to scoreO[5]
+set_location_assignment PIN_D1 -to scoreO[6]
+
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
