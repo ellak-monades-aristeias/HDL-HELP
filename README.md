@@ -1,4 +1,5 @@
-# «HDL-HELP»
+«HDL-HELP»
+==========
 
 Δημιουργία ενός οδηγού υποβοήθησης για την εισαγωγή του χρήστη στον σχεδιασμό
 κυκλωμάτων σε FPGAs
@@ -41,7 +42,7 @@ Arrays, FPGAs) επιτρέπουν τον σχεδιασμό και υλοπο�
 ============
 
 Η υλοποίηση των κυκλωμάτων γίνεται με την χρήση VHDL και του λογισμικού Quartus
-II της  Altera (https://www.altera.com/). Το τελικά αρχεία θα καλύπτουν τις
+II της Altera (https://www.altera.com/). Το τελικά αρχεία θα καλύπτουν τις
 βασικές κατευθύνσεις του έργου και τα εκπαιδευτικά κυκλώματα, όπως αυτά
 περιγράφηκαν παραπάνω. Η επαλήθευση των κυκλωμάτων σε αυτό το έργο έγινε με τη
 χρήση της πλακέτας DE1 από την Altera.
@@ -77,3 +78,14 @@ Issues
 δεύτερου εκπαιδευτικού κυκλώματος, του χρωματισμού των pixel της οθόνης με τα
 τρία βασικά χρώματα. Στο φάκελο “Presentation” είναι αναρτημένη η παρουσίαση που
 πραγματοποιήθηκε στα πλαίσια της προώθησης του έργου.
+
+Πίνακας Παραδοτέων
+==================
+
+| **Τίτλος παραδοτέου**                                     | **URL**                                                                                                        |
+|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| *ΠΕ1:*  *«Παρουσίαση βασικών εργαλείων σχεδίασης»*        | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE1---Parousiasi-Vasikwn-Ergaleiwn-Sxediasis>        |
+| *ΠΕ2:*  *«Σχεδιασμός και επεξήγηση βασικών κυκλωμάτων»*   | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE2---Sxediasmos-kai-epeksigisi-vasikwn-kuklwmatwn>  |
+| *ΠΕ3:*  *«Δημιουργία εκπαιδευτικού κυκλώματος 1»*         | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE3---Dimiourgia-ekpaideutikou-kuklwmatos-1>         |
+| *ΠΕ4:*  *«Δημιουργία εκπαιδευτικού κυκλώματος 2»*         | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE4---Dimiourgia-ekpaideutikou-kuklwmatos-2>         |
+| *ΠΕ5:*  *«Προώθηση/ παρουσίαση εκπαιδευτικού λογισμικού»* | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE5---Prowthisi-Parousiasi-ekpaideutikou-logismikou> |
