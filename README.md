@@ -2,7 +2,9 @@
 ==========
 
 Δημιουργία ενός οδηγού υποβοήθησης για την εισαγωγή του χρήστη στον σχεδιασμό
-κυκλωμάτων σε FPGAs
+κυκλωμάτων σε FPGAs.
+
+ 
 
 ΑΝΤΙΚΕΙΜΕΝΟ ΕΡΓΟΥ
 =================
@@ -37,6 +39,11 @@ Arrays, FPGAs) επιτρέπουν τον σχεδιασμό και υλοπο�
 Κατά τον σχεδιασμό των εκπαιδευτικών κυκλωμάτων θα χρησιμοποιηθούν components
 από το αποθετήριο κώδικα της Μονάδας Αριστείας ΕΛΛ/ΛΑΚ Ιωαννίνων
 (https://github.com/ioa-maellak/FPGA\_controllers\_and\_more/).
+
+Στο αρχείο «users» υπάρχουν διαθέσιμες πληροφορίες για την αξιοποίηση της
+εφαρμογής από του ενδιαφερόμενους χρήστες, ενώ στο αρχείο «developers» υπάρχουν
+διαθέσιμες πληροφορίες για όσους ενδιαφέρονται να επεκτείνουν τις παρεχόμενες
+υπηρεσίες.
 
 ΤΕΧΝΙΚΑ ΜΕΣΑ
 ============
@@ -82,10 +89,10 @@ Issues
 Πίνακας Παραδοτέων
 ==================
 
-| **Τίτλος παραδοτέου**                                     | **URL**                                                                                                        |
-|-----------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| *ΠΕ1:*  *«Παρουσίαση βασικών εργαλείων σχεδίασης»*        | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE1---Parousiasi-Vasikwn-Ergaleiwn-Sxediasis>        |
-| *ΠΕ2:*  *«Σχεδιασμός και επεξήγηση βασικών κυκλωμάτων»*   | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE2---Sxediasmos-kai-epeksigisi-vasikwn-kuklwmatwn>  |
-| *ΠΕ3:*  *«Δημιουργία εκπαιδευτικού κυκλώματος 1»*         | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE3---Dimiourgia-ekpaideutikou-kuklwmatos-1>         |
-| *ΠΕ4:*  *«Δημιουργία εκπαιδευτικού κυκλώματος 2»*         | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE4---Dimiourgia-ekpaideutikou-kuklwmatos-2>         |
-| *ΠΕ5:*  *«Προώθηση/ παρουσίαση εκπαιδευτικού λογισμικού»* | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE5---Prowthisi-Parousiasi-ekpaideutikou-logismikou> |
+| **Τίτλος παραδοτέου**                                  | **URL**                                                                                                        |
+|--------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| *ΠΕ1: «Παρουσίαση βασικών εργαλείων σχεδίασης»*        | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE1---Parousiasi-Vasikwn-Ergaleiwn-Sxediasis>        |
+| *ΠΕ2: «Σχεδιασμός και επεξήγηση βασικών κυκλωμάτων»*   | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE2---Sxediasmos-kai-epeksigisi-vasikwn-kuklwmatwn>  |
+| *ΠΕ3: «Δημιουργία εκπαιδευτικού κυκλώματος 1»*         | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE3---Dimiourgia-ekpaideutikou-kuklwmatos-1>         |
+| *ΠΕ4: «Δημιουργία εκπαιδευτικού κυκλώματος 2»*         | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE4---Dimiourgia-ekpaideutikou-kuklwmatos-2>         |
+| *ΠΕ5: «Προώθηση/ παρουσίαση εκπαιδευτικού λογισμικού»* | <https://github.com/ellak-monades-aristeias/HDL-HELP/wiki/PE5---Prowthisi-Parousiasi-ekpaideutikou-logismikou> |
