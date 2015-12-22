@@ -4,7 +4,13 @@
 Δημιουργία ενός οδηγού υποβοήθησης για την εισαγωγή του χρήστη στον σχεδιασμό
 κυκλωμάτων σε FPGAs.
 
- 
+Overview
+========
+
+The purpose of "HDL-HELP" is to create a guide to assist new programmers in the field of integrated circuits design targeting FPGAs and introduce the respective EDA & Design tools. For convenience, initially the VHDL code of key sub-circuits that allow the import and export data from peripherals of the FPGA board is presented in full detail. Then two complete examples of fully functional circuits (+ code with comments) are also designed building on the existing code.
+
+The implementation of the circuits is performed using VHDL code and Altera's Quartus II software (https://www.altera.com/). The files will eventually cover the basic directions of the educational circuits, as described above. The verification of the proposed circuits is done using DE1 FPGA board from Altera.
+
 
 ΑΝΤΙΚΕΙΜΕΝΟ ΕΡΓΟΥ
 =================
